@@ -14,7 +14,7 @@ Lilás: #5f2c82
 }
 
 body,html{
-    background-color:#5f2c82;
+    background-color:#c817ce;
     height: 100vh;
     width: 100vw;
 }
@@ -133,7 +133,7 @@ form > a.botao{
     background-color: white;
     color: brown;
     border: 1px solid blueviolet;
-    border-radius: 5px;
+    border-radius: 12px;
     text-decoration: none;
 
 }

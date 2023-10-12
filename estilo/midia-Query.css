@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {/*CONFIGURAÇÃO PARA TABLET*/
 
     body{
         background-image: linear-gradient(to top,#a6ff00, #ff008c);
@@ -8,6 +8,7 @@
 
     section#login{
         width: 90vw;
+        height: 280px;
     }
     section#login div#imagem{
         float: left;
@@ -24,11 +25,12 @@
 @media screen and (min-width: 992px) {
 
     body{
-        background-image: linear-gradient(to top,#ff0040, #73ff00a9);
+        background-image: linear-gradient(to top,#db1313, #562fafa9,#e2c20b,#00ff0d);
     }
 
     section#login{
         width: 980px;
+        height: 330px;
     }
     section#login > div#imagem{
         float: right;
