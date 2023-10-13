@@ -29,15 +29,15 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
 
     background-color: white;
     width: 290px;
     height: 590px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px #d60d3fe1;
+    box-shadow: 0px 0px 30px #000000e1;
 
+    transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
@@ -80,7 +80,7 @@ div.campo > label{
 }
 
 div.campo > i{
-    color: white;
+    color: rgb(23, 7, 236);
     
     font-size: 2em;
     width: 40px;
@@ -93,10 +93,10 @@ div.campo > input{
     font-size: 1em;
     width:calc(100% - 47px);
     height: 100%;
-    transform: translateY(-13px);
     border: 0px;
     border-radius: 12px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within{

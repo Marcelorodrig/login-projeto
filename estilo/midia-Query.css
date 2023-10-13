@@ -22,7 +22,7 @@
     }
     
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {/*CONFIGURAÇÕES PARA DESKTOP */
 
     body{
         background-image: linear-gradient(to top,#db1313, #562fafa9,#e2c20b,#00ff0d);
@@ -47,6 +47,10 @@
     div#formulario > h1{
         text-align: center;
         font-size: 3em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
+            margin: 20px 0px;
     }
 
 
